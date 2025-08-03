@@ -14,5 +14,4 @@ Es una aplicacion de web simple que permite sortear entre nombres previamente in
 ##Tecnologías usadas
 - HTML5
 - CSS
-
 - JavaScript
