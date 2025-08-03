@@ -25,7 +25,7 @@ function listaAmigos(){
 
 function sortearAmigo(){
     if(amigos.length < 1){
-        alert('Aun no ingreso ningun amigo');
+        alert('Aun no ingreso ningun nombre');
         return;
     }
 
