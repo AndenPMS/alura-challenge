@@ -4,7 +4,13 @@ let amigos = [];
 
 function agregarAmigo() { 
     let input = document.getElementById('amigo'); 
+
+    if(input.value === ''){
+        alert('Por favor, inserte un nombre.');
+        return;
+    }
     amigos.push(input.value);
+    input.value = '';
 }
 
 console.log(amigos)
